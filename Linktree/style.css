@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    /* font-size: 16px; */
+    font-size: 62.5%;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Cinzel';
+    /* background: #ffdab9; */
+}
+
+
+/***********************************************************************************************************************************
+GENERAL
+*************************************************************************************************************************************/
+
+body {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./aleh-tsikhanau-JW9-aCaU3tA-unsplash.jpg);
+    /* background-image: url(./aron-visuals-bZZp1PmHI0E-unsplash.jpg); */
+
+}
+
+h1 {
+    /* font-size: 35px; */
+    font-size: 4rem;
+    padding: 0 0 30px 0;
+    color: white;
+    text-shadow: 2px 2px 5px maroon;
+}
+
+h2 {
+    color: white;
+    padding: 0 0 25px 0;
+    /* font-size: 25px; */
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px maroon;
+    /* align-self: flex-start; */
+}
+
+p {
+    /* font-size: 18px; */
+    font-size: 2rem;
+    padding: 0 0 20px 0;
+    font-family: 'Abril Fatface';
+    color: white;
+    text-shadow: 2px 2px 5px maroon;
+    /* align-self: flex-start; */
+}
+/***********************************************************************************************************************************
+MAIN
+*************************************************************************************************************************************/
+
+.main {
+    /* border: 2px solid salmon; */
+    height: 100%;
+    width: 80%;
+    /* width: 100%; */
+    margin-left: 10%;
+    padding: 0 10% 10% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/***********************************************************************************************************************************
+BUTTONS
+*************************************************************************************************************************************/
+/* .btn {
+    border: 2px solid red;
+    max-width: 60rem;
+    position: relative;
+} */
+
+button {
+    width: 100%;
+    border: 2px solid gold;
+    /* padding: 20px 200px; */
+    font-size: 1rem;
+    padding: 1.5rem 4rem;
+    margin:  10px 0;
+    border-radius: 30px;
+    background: #6d6a75;
+}
+
+button:hover {
+    background-color: burlywood;
+    /* color: pink; */
+    cursor: pointer;
+}
+
+a {
+    /* color: palevioletred; */
+    color: #ee872c;
+    /* color: #7f5539; */
+    text-decoration: none;
+}
+
+button:hover a {
+    color: #871010;
+}
+
+div {
+   position: relative;
+   bottom: 15px;
+   left: 20px;
+   color: #6d6a75;
+}
